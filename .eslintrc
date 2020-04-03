@@ -1,0 +1,17 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "extends": ["plugin:@typescript-eslint/recommended", "plugin:prettier/recommended"],
+    "rules": {
+        "one-var": ["error", {"const": "never", "let": "never"}],
+        "no-var": "error",
+        "yoda": "warn",
+        "arrow-parens": "warn",
+        "semi": "warn",
+        "object-shorthand": "warn",
+        "prefer-const": "warn",
+        "prefer-arrow-callback": "warn",
+        "prefer-rest-params": "warn",
+        "no-useless-constructor": "error",
+        "no-useless-rename": "error"
+    }
+}

@@ -1,0 +1,8 @@
+# OS
+.DS_Store
+
+# Output location
+dist
+
+# Dependency directories
+node_modules/
